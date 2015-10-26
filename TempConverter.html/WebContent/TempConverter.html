@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+    <title>Temp Converter</title>
+    <link rel="stylesheet" type="text/css" href="temp_con.css" />
+    <script type="text/javascript" src="temp_con.js">
+    </script>
+<!--  <script>$("calculate").onclick=calculate_click()</script>    -->
+</head>
+<body>
+<div id="content">
+    <h1>Temperature Calculator</h1>
+    <p>Enter the values below and click "Calculate".</p>
+    <div id="tempCalc">
+        <label for="f_temp">Fahrenheit:</label>
+        <input type="text" id="f_temp"/><br />
+        <br>
+
+        <label for="c_temp">Celsius:</label>
+        <input type="text" id="c_temp"/><br />
+        <br>
+
+        <label for="f_con">Converted to F:</label>
+        <input type="text" id="f_con" disabled="disabled" /><br />
+        <br>
+        
+         <label for="c_con">Converted to C:</label>
+        <input type="text" id="c_con" disabled="disabled" /><br />
+        <br>
+        
+<!-- 		<input type="button" id="calculate" value="Calculate" /><br />     -->
+       
+  		<input type="button" id="calculate" value="Calculate Fahrenheit" onclick = "f_click()" /><br />
+  		<input type="button" id="calculate" value="Calculate Celsius" onclick = "c_click()" /><br />
+
+  		
+		
+  </div>
+  </div>
+  <div id="pic">
+  <img src="http://ezgreenbikes.com/wp-content/uploads/2015/06/welcome.jpg" >
+  </div>
+</body>
+</html>

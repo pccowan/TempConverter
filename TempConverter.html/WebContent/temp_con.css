@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: lightblue;
+}
+
+#content {
+	width: 500px;
+	margin: 10px auto;
+	padding: 5px 20px;
+	background: white;
+	border: thin solid black;
+}
+
+#f_temp, #total {
+	color: black;
+}
+
+#tempCalc label {
+	display: block;
+	width: 8em;
+	text-align: right;
+	padding-right: 1em;
+	float: left;
+}
+
+#tempCalc input {
+	display: block;
+	float: left;
+
+}
+
+#tempCalc br {
+	clear: left;
+}
+#pic {
+	width: 600px;
+	margin: 50px auto;
+	align: middle;
+}
